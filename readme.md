@@ -1,4 +1,4 @@
-# MySql Master-Slave
+# Mysql Master-Slave Demo 
 
 Este repositorio contiene un ejemplo de configuración de MySQL en modalidad master-slave con 2 contenedores de Docker. El master atenderá en el puerto 3306 y el esclavo en el 3307 (en la configuración por defecto).
 Se asume que se configura desde un comienzo, es decir que no se precisa backupear la base de datos y restorearla en el slave, aunque en la ppt queda como guía los pasos opcionales para hacerlo. 
